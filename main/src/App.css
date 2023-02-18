@@ -13,7 +13,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
 }
 
 #app > * {
@@ -22,8 +21,7 @@
 
 .page {
     display: flex;
-    align-items: center;
-    height: 100%;
+    height: 85vh;
 }
 
 #nav {
@@ -39,6 +37,15 @@
     background-color: lavender;
 }
 
+#about {
+    background-color: bisque;
+}
+
+#contact {
+    background-color: darkgoldenrod;
+}
+
 #footer {
     background-color: grey;
 }
+
