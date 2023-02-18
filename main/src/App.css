@@ -10,3 +10,25 @@ html, #app {
     align-items: center;
     justify-content: space-between;
 }
+
+#app > * {
+    width: 100vw;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#nav {
+    background-color: aquamarine;
+}
+
+#landing {
+    background-color: lavender;
+}
+
+#footer {
+    background-color: grey;
+}

@@ -1,5 +1,7 @@
 const Nav = () => {
-    return <div>Nav Component</div>
+    return <>
+        <div id="nav">Nav Component</div>
+    </>
 }
 
 export default Nav

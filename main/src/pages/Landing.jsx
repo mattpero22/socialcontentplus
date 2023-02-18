@@ -1,5 +1,9 @@
 const Landing = () => {
-    return <>Landing Page</>
+    return <>
+    <div id="landing" className="page">
+        Landing Page
+    </div>
+    </>
 }
 
 export default Landing
