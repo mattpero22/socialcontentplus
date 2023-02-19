@@ -25,12 +25,24 @@
 }
 
 #nav {
-    background-color: aquamarine;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 #navLogo {
     width: 200px;
+    padding: 15px;
+}
+
+#navButtons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navButton {
+    padding: 10px;
 }
 
 #landing {
