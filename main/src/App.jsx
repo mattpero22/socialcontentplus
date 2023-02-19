@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './App.css';
 
 // components
@@ -8,12 +7,11 @@ import Footer from './components/Footer';
 
 function App() {
   // define states
-  const [page, setPage] = useState("landing") // passed into Main comp to set the page of website
 
   return (
     <div id='app'>
       <Nav></Nav>
-      <Main page={page} setPage={setPage}></Main>
+      <Main></Main>
       <Footer></Footer>
     </div>
   );
