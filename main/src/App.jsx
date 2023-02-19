@@ -1,3 +1,7 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+
+//styles
 import './App.css';
 
 // components
@@ -11,7 +15,9 @@ function App() {
   return (
     <div id='app'>
       <Nav></Nav>
-      <Main></Main>
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
       <Footer></Footer>
     </div>
   );

@@ -7,15 +7,15 @@ const Nav = () => {
                 <img id="navLogo" alt="Social Content +"src={`./img/logo_light.png`}></img>
             </div>
             <ul id="navButtons">
-                <li id="homeButton" className="navButton">
-                    Home
-                </li>
-                <li id="contactButton" className="navButton">
-                    About
-                </li>
-                <li id="aboutButton" className="navButton">
-                    Contact
-                </li>
+                <HashLink className='navButton' smooth to={'/#'}>
+                    <p>Home</p>
+                </HashLink>
+                <HashLink className='navButton' smooth to={'/#about'}>
+                    <p>About</p>
+                </HashLink>
+                <HashLink className='navButton' smooth to={'/#calendar'}>
+                    <p>Contact</p>
+                </HashLink>
             </ul>
         </div>
     </>
